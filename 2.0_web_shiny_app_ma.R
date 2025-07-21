@@ -16,7 +16,7 @@ library(raster)
 ####DATA IN ENVIRONMENT####
 grid <- sf::st_read("../external_data/grid_italy_4326.gpkg")
 sf::st_crs(grid) <- 4326
-password = "S5Hd29Y7mQieyjprdy4Ft9en34jZDHZjcJ3wwfnhEY24Tm3AE9bdKNkJSjwxonzC"
+password = "S5Hxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 bbox <- matrix(data = c(6.5, 18.55, 35.49, 47.1),
                ncol = 2, 
                nrow = 2, 
